@@ -1,5 +1,5 @@
 
-data/*
+
 data_test/*
 papers/*
 others/*
@@ -19,8 +19,6 @@ README2.md
 run_bash.md
 tmp*
 
-*.png
-*.jpg
 *.pickle
 *.pyc
 *.avi
