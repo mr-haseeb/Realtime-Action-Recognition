@@ -26,8 +26,15 @@ classes=['safe driving' ,'texting - right' ,'talking on the phone - right','text
 
 #classes: ['lying', 'other', 'sitting', 'standing']
 
-image_filename_format: "{:05d}.jpg"
-skeleton_filename_format: "{:05d}.txt"
+# image_filename_format: "{:05d}.jpg"
+# skeleton_filename_format: "{:05d}.txt"
+
+
+image_filename_format: "*.jpg"
+skeleton_filename_format: "*.txt"
+
+
+
 
 features:
   window_size: 5 # Number of adjacent frames for extracting features. 
